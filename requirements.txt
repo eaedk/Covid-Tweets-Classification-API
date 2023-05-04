@@ -1,0 +1,9 @@
+transformers==4.28.1
+gradio==3.28.0
+scikit-learn==1.2.2
+scipy==1.10.1
+torch
+black
+pytest
+fastapi[all]
+uvicorn
