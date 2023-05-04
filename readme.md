@@ -9,3 +9,15 @@ Please follow the instructions below to run the app.
 Please follow the instructions below to run the app.
 `commands will be added soon`
 
+## Illustrations
+
+API execution :
+![](./imgs/terminal.png)
+
+API docs :
+![](./imgs/docs.png)
+
+API testing :
+![](./imgs/run_basic.png)
+![](./imgs/run_test.png)
+![](./imgs/run_test_response.png)
