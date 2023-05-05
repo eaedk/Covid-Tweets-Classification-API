@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+import uvicorn
 from transformers import AutoModelForSequenceClassification
 from transformers import AutoTokenizer, AutoConfig
 from typing import List,  Literal
@@ -72,3 +73,9 @@ async def run(input: ModelInput):
         "input_text": input.tweet,
         "confidence_scores":result
     }
+
+
+if __name__ == "__main__":
+    uvicorn.run("api:app", 
+                reload=True
+                )
